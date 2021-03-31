@@ -4,7 +4,6 @@ public class CardCompany {
 
 	private static CardCompany instance = new CardCompany();
 	
-	
 	private CardCompany() {
 		
 	}
@@ -14,6 +13,7 @@ public class CardCompany {
 		x.setCardNumber();
 		return x;
 	}
+	
 	public static CardCompany getInstance() {
 		if(instance == null) {
 			instance = new CardCompany();

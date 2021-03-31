@@ -12,6 +12,23 @@ public class MyDate {
 		else
 			System.out.println("\'日\'을 잘 못 입력 하셨습니다.");
 	}
+	
+	
+	public int getDay() {
+		return day;
+	}
+
+
+	public int getMonth() {
+		return month;
+	}
+
+
+	public int getYear() {
+		return year;
+	}
+
+	
 	public void setMonth(int month) {
 		if((month >= 1)&&(month <= 12))
 			this.month = month;

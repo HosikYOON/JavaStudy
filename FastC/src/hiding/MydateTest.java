@@ -10,6 +10,9 @@ public class MydateTest {
 		mydate.setMonth(03);
 		mydate.setYear(2021);
 		mydate.showDate();
-	}
-
+		
+		
+		MyDate date2 = new MyDate();
+		date2.setYear(2020);
+	}	
 }
